@@ -1,0 +1,16 @@
+[package]
+name = "learn-rust"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+resolver = '2'
+members = [
+    "crates/*",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Thurston Zhu"]
+rust-version = "1.83.0"
