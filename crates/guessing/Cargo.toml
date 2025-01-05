@@ -1,13 +1,8 @@
 [package]
 name = "guessing"
-version.workspace = true
-authors.workspace = true
-description = ""
-edition.workspace = true
+version = "0.1.0"
+edition = "2021"
 
 [[bin]]
 name = "main"
 path = "src/main.rs"
-
-[dependencies]
-rayon = { workspace = true }
